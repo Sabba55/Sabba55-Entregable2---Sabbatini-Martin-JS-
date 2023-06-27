@@ -1,0 +1,42 @@
+/* Ajustes Generales */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+  }
+
+/* ~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~ */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: rgb(179, 179, 179);
+}
+
+.logo{
+    max-width: 300px;
+}
+
+.nav_list {
+    list-style-type: none;
+    display: flex;
+    gap: 4rem;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+  
+.nav_list li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    
+}
+  
+.nav_list li a:hover {
+    color: rgb(163, 0, 0);
+    border-radius: 5px;
+}
